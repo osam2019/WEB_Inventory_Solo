@@ -1,13 +1,11 @@
 <template>
   <div id="main">
-    <h1>Inventory</h1>
+    <h1>Inventory111</h1>
   <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
     <el-menu-item index="/">Storage</el-menu-item>
     <el-menu-item index="/repair">Repair</el-menu-item>
     <el-menu-item index="/history">History</el-menu-item>
     <el-menu-item index="/about">About</el-menu-item>
-
-
   </el-menu>
   
       <router-view/>
